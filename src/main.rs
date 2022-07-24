@@ -22,7 +22,7 @@ fn main() {
         // TODO: 转换 fields[1] 的值为 f32 类型, 成功时复制给 length
         if let Ok(length) = _fields[1].parse::<f32>() {
             unsafe {
-                println!("out: {}, {}cm", name, length);
+                println!("release: {}, {}cm", name, length);
             }
         }
     }
